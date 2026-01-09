@@ -3,7 +3,7 @@ import axios from 'axios';
 
 function App() {
   // State management ESP
-  const [espIp, setEspIp] = useState('192.168.1.6');
+  const [espIp, setEspIp] = useState('10.82.187.33');
   const [connected, setConnected] = useState(false);
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState({
@@ -12,7 +12,7 @@ function App() {
     rssi: -84,
     free_memory: 0,
     uptime: 0,
-    ip: '192.168.1.6',
+    ip: '10.82.187.33',
     wifi_status: 'connected'
   });
 
