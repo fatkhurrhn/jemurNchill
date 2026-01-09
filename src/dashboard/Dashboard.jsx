@@ -199,7 +199,7 @@ function App() {
       dummyWeather.drying_estimate = calculateDryingEstimate(dummyWeather.current);
       setWeather(dummyWeather);
 
-      showMessage('Menggunakan data cuaca demo', 'info');
+      showMessage('refresh data cuaca', 'info');
     } finally {
       setWeatherLoading(false);
     }
